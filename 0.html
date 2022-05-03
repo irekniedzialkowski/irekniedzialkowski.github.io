@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html><head>
+  <script type="text/javascript">
+      function reload(div_id) {
+      console.log("In the reload function");
+      var container = document.getElementById(div_id);
+      var content = container.innerHTML;
+      container.innerHTML= content; 
+      
+    //this line is to watch the result in console , you can remove it later	
+      console.log("Refreshed"); 
+    }
+  </script>
+  <meta name="referrer" content="no-referrer">
+  <title>  Soccer scraper </title>
+  <link rel="stylesheet" type="text/css" href="./static/styles/soccer_scraper.css">
+  </head>
+  <body>
+    <h1 class="title"> <a class="title_link" href="/"> <img src="./static/reddit_preview_rev_1.png" width="30px"> 
+      <img src="./static/slash_transparent.png" width="30px"> 
+      <img src="./static/flashscore.png" width="30px">  
+      Soccer Scraper </a> </h1>
+
+      <div class="wrapper" ,="" style="max-width: 100%">
+
+        <div class="box_wrapper">
+        
+        <div id="europe/champions-league-play-offs">
+            <a class="link_class" href="https://www.flashscore.com/football/europe/champions-league-play-offs" target="_blank">
+              <div class="league" id="europe/champions-league-play-offs">
+                EUROPE: Champions League - Play Offs
+              </div>
+            </a>
+        <!-- </div> -->
+          
+          
+        <div id="/match/INstta7D/" style="height: auto;">
+            <a class="link_class" href="https://www.flashscore.com/match/INstta7D/" target="_blank">
+              <div class="another_box_wrapper"> 
+                <div class="box">
+                    <div class="time">
+                      21:00
+                    </div>
+                  
+                    <div class="home_team"> Villarreal </div>
+                    <div class="score"> -:- </div>
+                    <div class="away_team">Liverpool </div>
+
+                  </div>
+              </div>
+            </a>
+             <div class="video_wrapper">
+                
+              </div>
+          </div>
+        
+        </div>
+      
+        </div>
+
+        <div class="aside_wrapper">
+          <div class="aside">
+          <div class="date_selector_wrapper">
+            <button class="date_selector_btn">2022-05-03 (Today)</button>
+            <div class="dropdown-content">
+              
+              <a href="0.html">2022-05-03 (Today)</a>
+              
+              <a href="-1.html">2022-05-02 (Yesterday)</a>
+              
+              <a href="-2.html">2022-05-01 (2 days ago)</a>
+              
+              <a href="-3.html">2022-04-30 (3 days ago)</a>
+
+            </div>
+          </div>
+          <br>
+
+          <div class="aside_results">
+            
+            <div class="aside_league">
+              <a href="#europe/champions-league-play-offs">EUROPE: Champions League - Play Offs</a>
+            </div>
+    
+              
+            <div class="aside_match">
+           
+              <a href="#/match/INstta7D/">
+                <div class="home_team"> Villarreal </div>
+                <div class="home_score"> -</div>
+                <div class="away_team">Liverpool </div>
+                <div class="away_score">-</div></a>
+              </div> 
+              
+                
+           </div>
+
+          </div>
+        </div>
+      </div>
+
+    
+</body></html>
