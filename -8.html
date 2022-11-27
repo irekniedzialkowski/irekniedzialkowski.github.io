@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script type="text/javascript">
+      function reload(div_id) {
+      console.log("In the reload function");
+      var container = document.getElementById(div_id);
+      var content = container.innerHTML;
+      container.innerHTML= content; 
+      
+    //this line is to watch the result in console , you can remove it later	
+      console.log("Refreshed"); 
+    }
+  </script>
+  <meta name="referrer" content="no-referrer" />
+  <title>  Soccer scraper </title>
+  <link rel="stylesheet" type= "text/css" href= "/static/styles/soccer_scraper.css" />
+  </head>
+  <body>
+    <h1 class="title"> <a class = "title_link" href="/-8"> <img src="/static/reddit_preview_rev_1.png" width="30px" /> 
+      <img src="/static/slash_transparent.png" width="30px" /> 
+      <img src="/static/flashscore.png" width="30px" />  
+      Soccer Scraper </a> </h1>
+
+      <div class = "wrapper", style="max-width: 100%">
+
+        <div class="box_wrapper">
+        
+        </div>
+
+        <div class="aside_wrapper">
+          <div class = "aside" >
+          <div class="date_selector_wrapper">
+            <button class="date_selector_btn">2022-11-19 (8 days ago)</button>
+            <div class="dropdown-content">
+              
+              <a href="/">2022-11-27 (Today)</a>
+              
+              <a href="/-1">2022-11-26 (Yesterday)</a>
+              
+              <a href="/-2">2022-11-25 (2 days ago)</a>
+              
+              <a href="/-3">2022-11-24 (3 days ago)</a>
+              
+              <a href="/-4">2022-11-23 (4 days ago)</a>
+              
+              <a href="/-5">2022-11-22 (5 days ago)</a>
+              
+              <a href="/-6">2022-11-21 (6 days ago)</a>
+              
+              <a href="/-7">2022-11-20 (7 days ago)</a>
+              
+              <a href="/-8">2022-11-19 (8 days ago)</a>
+              
+              <a href="/-9">2022-11-18 (9 days ago)</a>
+              
+            </div>
+          </div>
+          <br>
+
+          <div class="aside_results">
+                
+           </div>
+
+          </div>
+        </div>
+      </div>
+
+    </body>
+</html>
